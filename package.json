@@ -11,7 +11,8 @@
   "author": "Ravi",
   "contributors": [],
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "yargs": "^11.0.0"
   },
   "main": "app.js",
   "scripts": {

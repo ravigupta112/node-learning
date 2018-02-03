@@ -11,6 +11,14 @@ var user = os.userInfo();
 
 // npm install nodemon -g
 
-var uniqueArr = _.uniq(['a','b',3,6,2,4,2,3,'a']);
+//var uniqueArr = _.uniq(['a','b',3,6,2,4,2,3,'a']);
+//
+//console.log(uniqueArr);
 
-console.log(uniqueArr);
+
+//node app.js test
+//console.log(process.argv[2]);
+ 
+//node app.js test --title="first title" 
+console.log(process.argv);
+  
