@@ -5,7 +5,18 @@ module.exports.age = 25;
 //    
 //}
 
-module.exports.addNote = () =>{
-     console.log("Add note");
+var addNote = (title, body ) =>{
+     console.log("Add note", title, body);
      return "New note";
 }
+
+
+var getAll = () => {
+    console.log("List all");
+}
+
+module.exports = {
+    addNote,
+    all:getAll,
+    
+};
